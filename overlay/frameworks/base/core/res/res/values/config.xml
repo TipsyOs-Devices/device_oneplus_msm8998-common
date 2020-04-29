@@ -680,4 +680,8 @@
     <string-array name="config_deviceKeyHandlerClasses" translatable="false">
         <item>org.carbonrom.settings.device.KeyHandler</item>
     </string-array>
+
+    <!-- make sure you enable this only if your device supports deep sleep
+    with active proximity sensor event listener -->
+    <bool name="config_proxiSensorWakupCheck">true</bool>
 </resources>
