@@ -274,6 +274,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.qti.sys.fw.bservice_limit=5 \
     ro.vendor.qti.sys.fw.bservice_age=5000
 
+# Rescue party
+PRODUCT_PROPERTY_OVERRIDES += \
+	persist.sys.disable_rescue=true
+
 # RIL
 PRODUCT_PROPERTY_OVERRIDES += \
     DEVICE_PROVISIONED=1 \
